@@ -20,7 +20,7 @@ In this Git Repo, I want to discuss several common way to create breaks for colo
   - __quantile__: quantile is a great way if you want to make sure each groups contains approx. similar points.
 
 
-In summary, no way are perfect in all cases. You should try different methods with different groups and breaks to see the optimal choice for the given problem. Based on such motivation, I include an R script that will generate the different approach in one shot. Looks like the below example. 
+In summary, no way are perfect in all cases. You should try different methods with different groups and breaks to see the optimal choice for the given problem. Based on such motivation, I include an R script that will generate the different approach in one shot using the defined function `color_analysis`. Looks like the below example. 
 
 ![](img/Rplot1.png)
 
