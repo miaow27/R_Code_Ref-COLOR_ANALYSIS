@@ -1,16 +1,13 @@
----
-title: "Color Analysis"
-author: "Miao Wang"
-date: "9/22/2019"
-output: html_document
----
+# Color Analysis 
 
-For any EDA or visulization, you must encounter to represent a given measure with the intensity of a color. 
+For any EDA or visulization, you must encounter the following scenario: 
 ![like this heatmap](img/rat-burrough-heatmap-1.png)
 ![or like this heatmap with divergent color](img/seaborn-heatmap-7.png)
 ![or any line graphs with different color](img/images.jpg)
 
-It might be stating the obvious, but have you ever wonder what is the best way to create breaks for any continous variable? If you break the continous variable in a "wrong" way, you might miss any important observations. 
+All these visuals are at its essense: represent a given measure with the intensity of a color. 
+
+In many tools available, most software take care of the mapping values to color for you. However, have you ever wonder what is the best way to create breaks for any continous variable? In other words, if the deafult setting is not ideal, and nothing interesting in the visual are showing, could it be due to the 'non-ideal' way of breaking breaks and how can you fix such problem? 
 
 In this Git Repo, I want to discuss several common way to create breaks for coloring on a given continous measure. 
 
